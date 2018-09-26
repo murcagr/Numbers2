@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Numbers</string>
+    <string name="count">Count</string>
+    <string name="random">Random</string>
+</resources>
