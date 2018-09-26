@@ -7,7 +7,7 @@ import java.util.Random;
 public class MNumber extends BaseObservable {
 
 
-    private int num;
+    private Integer num;
 
     public MNumber() {
         num = 0;
@@ -21,10 +21,11 @@ public class MNumber extends BaseObservable {
     private void randomize(){
         Random rand = new Random();
         num = rand.nextInt();
+
     }
 
 
-    public int getNum() {
+    public Integer getNum() {
         return num;
     }
 }

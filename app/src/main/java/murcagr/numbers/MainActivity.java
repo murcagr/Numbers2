@@ -1,12 +1,10 @@
 package murcagr.numbers;
 
-import android.app.Activity;
 import android.arch.lifecycle.ViewModelProviders;
 import android.databinding.DataBindingUtil;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-import murcagr.numbers.Model.MNumber;
 import murcagr.numbers.databinding.ActivityMainBinding;
 
 public class MainActivity extends AppCompatActivity {
@@ -21,11 +19,13 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        MViewModel Mvm = ViewModelProviders.of(this).get(MViewModel.class);
+
+        // Получаем ВьюМодел
+        MViewModel mVm = ViewModelProviders.of(this).get(MViewModel.class);
 
         ActivityMainBinding binding = DataBindingUtil.setContentView(this, R.layout.activity_main);
 
-        binding.setMViewModel(Mvm);
+        binding.setMv(mVm);
 
 
     }

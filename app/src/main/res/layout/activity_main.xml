@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <data>
-        <variable name="MViewModel" type="murcagr.numbers.MViewModel"/>
+        <variable name="Mv" type="murcagr.numbers.MViewModel"/>
     </data>
 
 
@@ -17,7 +17,7 @@
         android:id="@+id/text_number"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text = "@{MviewModel.number}"
+        android:text = "@{Mv.number}"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"

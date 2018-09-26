@@ -6,8 +6,8 @@ public class MViewModel extends android.arch.lifecycle.ViewModel {
 
     private MNumber number = new MNumber();
 
-    public Integer getNumber(){
-        return  number.getNum();
+    public String getNumber(){
+        return  number.getNum().toString();
     }
 
 }

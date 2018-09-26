@@ -1,10 +1,10 @@
 Executable : C:\Users\Rezeda\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\cmake.exe
 arguments : 
--HD:\Dropbox\V_i_P\Android\Numbers2\app
--BD:\Dropbox\V_i_P\Android\Numbers2\app\.externalNativeBuild\cmake\release\armeabi-v7a
+-HD:\Android\Numbers2\app
+-BD:\Android\Numbers2\app\.externalNativeBuild\cmake\release\armeabi-v7a
 -DANDROID_ABI=armeabi-v7a
 -DANDROID_PLATFORM=android-16
--DCMAKE_LIBRARY_OUTPUT_DIRECTORY=D:\Dropbox\V_i_P\Android\Numbers2\app\build\intermediates\cmake\release\obj\armeabi-v7a
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=D:\Android\Numbers2\app\build\intermediates\cmake\release\obj\armeabi-v7a
 -DCMAKE_BUILD_TYPE=Release
 -DANDROID_NDK=C:\Users\Rezeda\AppData\Local\Android\Sdk\ndk-bundle
 -DCMAKE_CXX_FLAGS=
